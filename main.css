@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#logo {
+    margin: 20px auto 30px;
+}
+
+#continue {
+    width: 100%;
+    color: black;
+    background-color: gold;
+}
+
+#button_warning {
+    font-size: 10px;
+}
+
+#new {
+    text-align: center;
+}
+
+#create {
+    width: 100%;
+}
+
+footer {
+    height: 80px;
+}
+
+footer ul, footer p {
+    text-align: center;
+}
+
+footer li {
+    margin: auto;
+    list-style: none;
+    float: left;
+}
