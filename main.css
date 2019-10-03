@@ -8,6 +8,15 @@ body {
     margin: 20px auto 30px;
 }
 
+.card {
+    padding-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
 #continue {
     width: 100%;
     color: black;
@@ -15,27 +24,43 @@ body {
 }
 
 #button_warning {
-    font-size: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#need_help {
+    background: none;
+    font-size: 11.5px;
 }
 
 #new {
     text-align: center;
+    font-size: 12px;
+    padding: 20px 0 0 0;
+    color: gray;
 }
 
 #create {
     width: 100%;
+    background-color: #e2e2e9;
+    color: black;
 }
 
 footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
     height: 80px;
+    margin-top: 50px;
+    padding-top: 30px;
 }
 
 footer ul, footer p {
     text-align: center;
+        font-size: 12px;
 }
 
 footer li {
     margin: auto;
     list-style: none;
-    float: left;
+    display: inline;
+    padding-right: 20px;
 }
